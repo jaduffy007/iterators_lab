@@ -21,7 +21,7 @@ Pretending we implemented the following methods, update this README with a descr
 * `map`   creates a new array from calling the function provided, on each item in the array.
 * `filter`: [note]  The items that return true from using the provided callback function are included in a new array. Creates a subset of the initial array.
 * `reduce`: [note]a method that accumulates each value of the array into a single value.  Setting an inital value is optional.
-* `reject`: [note] The opposite of filter. Returns a new array of the items that failed the test conditional.
+* `reject`: [note] The opposite of filter. Returns a new array of the items that failed the 'true' test conditional.
 
 Use the notes provided to help guide you explanation.
 
