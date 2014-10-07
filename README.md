@@ -11,17 +11,17 @@ In the iterators lab we will be continuing our exploration of iterators and buil
 
 Research the following term and summarize your findings on it two to three sentences:
 
-* `higher-order function`
+* `higher-order function`: A higher-order function accepts other functions as arguments.  It can also return a function.
 
 Pretending we implemented the following methods, update this README with a description of each of the following and an example you've created:
 
-* `max`
-* `min`
-* `each`
-* `map`
-* `filter`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
-* `reduce`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
-* `reject`: [note](http://underscorejs.org/#reject)
+* `max` returns the number with the highest value
+* `min` returns the number with the lowest value
+* `each` executes the provided function once on each of the array's elements. Returns undefined.
+* `map`   creates a new array from calling the function provided, on each item in the array.
+* `filter`: [note]  The items that return true from using the provided callback function are included in a new array. Creates a subset of the initial array.
+* `reduce`: [note]a method that accumulates each value of the array into a single value.  Setting an inital value is optional.
+* `reject`: [note] The opposite of filter. Returns a new array of the items that failed the test conditional.
 
 Use the notes provided to help guide you explanation.
 
